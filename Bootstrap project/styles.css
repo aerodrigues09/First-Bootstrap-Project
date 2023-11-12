@@ -1,0 +1,61 @@
+body{
+    background-color: #8ecae6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.txtcolor h2{
+    color: #023047;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.txtcolor p{
+    color: #023047;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px ;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: white;   
+}
+#mainNavbar .nav-link:hover{
+    color: #fb8500;   
+}
+
+#mainNavbar .navbar-brand{
+    color: #fb8500;  
+}
+
+#headingGroup span{
+    color: #fb8500;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.navbar.scrolled{
+    background: #023047;
+    transition: background 500ms;
+}
+
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+
